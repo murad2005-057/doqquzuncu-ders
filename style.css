@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Teko&display=swap");
+body {
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+i {
+  padding: 10px;
+  font-size: 15px;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Abril Fatface", cursive;
+  justify-content: center;
+}
+
+h6 {
+  justify-content: right;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Black Ops One", cursive;
+  font-family: "Teko", sans-serif;
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+  margin: 0px;
+  padding: 20px;
+}
+
+.menu {
+  text-align: center;
+}
+.menu a {
+  padding: 5px;
+  text-decoration: none;
+  color: grey;
+}
+
+.contanier {
+  display: flex;
+  flex-direction: unset;
+}
+
+.content {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnEKBTBMpD9BjGGMA39Y5r6sQ1vA8Yp28Rlg&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+.content a {
+  padding: 5px 5px 5px 5px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #00bfff;
+}
+.content h1 {
+  padding-top: 150px;
+  color: #fff;
+}
+.content span {
+  color: #fff;
+}
+.content img {
+  width: 40px;
+  border: 2px solid red;
+  border-radius: 70px;
+}
+
+.img-content {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://media.dcrainmaker.com/images/2017/11/AppleWatchSeries3-WorkoutGoals_thumb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+}
+.img-content a {
+  padding: 5px 5px 5px 5px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #679a23;
+}
+.img-content span {
+  color: #fff;
+}
+
+.img-content-item {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Herbie_car.jpg/1200px-Herbie_car.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+}/*# sourceMappingURL=style.css.map */
